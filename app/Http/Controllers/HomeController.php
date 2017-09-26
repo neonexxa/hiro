@@ -23,7 +23,8 @@ class HomeController extends Controller
     {
         $themes = ['IoT','Machine Learning','Commercial Web','BoTs'];
         $description = ['IOT','ML','ML','bot'];
-        return view('theme',compact('themes','description'));
+        $imagetheme = ['/img/iot.jpg','/img/ml.jpg','/img/comweb.jpg','/img/bot.jpg'];
+        return view('theme',compact('themes','description','imagetheme'));
     }
     public function prize()
     {

@@ -20,7 +20,7 @@
 				<div class="card">
 			    <!--Card image-->
 				    <div class="view overlay hm-white-slight">
-				        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+				        <img src="{{$imagetheme[$key] }}" class="img-fluid" alt="">
 				        <a href="#">
 				            <div class="mask"></div>
 				        </a>

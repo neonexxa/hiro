@@ -43,7 +43,7 @@
                         <a class="nav-link" href="{{route('faq')}}" style="text-shadow: 2px 2px black;">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-danger" href="#">Register Now!!</a>    
+                        <a class="nav-link btn btn-danger" href="https://goo.gl/forms/WjV0XiwtMH5k9I7l1">Register Now!!</a>    
                     </li>
                     
                 </ul>
